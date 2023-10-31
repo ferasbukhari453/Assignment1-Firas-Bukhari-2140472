@@ -1,0 +1,130 @@
+/* Assignment1 Firas Bukhari 2140472 */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid !important;
+  gap: 10px;
+}
+
+.Header {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  height: 10px !important;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(254, 254, 254);
+}
+li a:hover {
+  background-color: #ffffff;
+}
+li a:active {
+  background-color: #ffffff;
+}
+#PersonalInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#H1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  background-color: rgb(48, 47, 47);
+  width: 100%;
+}
+#H12 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  background-color: rgb(48, 47, 47);
+  width: 100%;
+}
+#H13 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  background-color: rgb(48, 47, 47);
+  width: 100%;
+}
+#H14 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  background-color: rgb(48, 47, 47);
+  width: 100%;
+}
+.MyImage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+}
+.MyImage img {
+  width: 100%;
+  max-width: 800px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#H3L {
+  border-top: 3px solid #000000;
+}
+#PersonalInfo {
+  padding-top: 56px;
+}
+#Education {
+  padding-top: 56px;
+}
+#Projects {
+  padding-top: 56px;
+}
+#ContactInfo {
+  padding-top: 56px;
+}
